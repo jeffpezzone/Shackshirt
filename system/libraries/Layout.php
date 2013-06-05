@@ -32,9 +32,10 @@ class CI_Layout
         $loadedData['content_for_layout'] = $this->obj->load->view($view, $data, true);
 
         //possibly eventually have bigger switch statement here for different views to be loaded
-        if ($view == 'home'){
+        /*if ($view == 'home'){
             $loadedData['title'] = "Shackshirt";
-        }
+        }*/
+        $loadedData['title'] = "Shackshirt";
         if ($return)
         {
             $output = $this->obj->load->view($this->layout, $loadedData, true);

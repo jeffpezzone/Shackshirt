@@ -13,12 +13,11 @@ class Site extends CI_Controller {
 		$this->layout->view('home');
 	}
 
+	//load under_construction animation
 	function under_construction(){
 		$this->load->view('under_construction');
 	}
 
-	public function doSomething(){
-		echo "doing something";
-	}
-
 }
+
+?>
