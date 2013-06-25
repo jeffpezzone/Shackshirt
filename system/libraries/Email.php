@@ -2085,6 +2085,10 @@ class CI_Email {
 		return ( ! isset($mimes[strtolower($ext)])) ? "application/x-unknown-content-type" : $mimes[strtolower($ext)];
 	}
 
+	/*public function setHeaders($header, $value){
+		$this->headers[$header] = $value;
+	}*/
+
 }
 // END CI_Email class
 

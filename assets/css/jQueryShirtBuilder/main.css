@@ -23,7 +23,7 @@ body {
 }
 
 #content > div {
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 #buy-ribbon {
@@ -43,13 +43,13 @@ body {
 	box-shadow: 0px 1px 0px 0px #ffffff; 
 }
 
-.api-buttons {
+/*.api-buttons {
 	margin-top: 20px;
 }
 
 .api-buttons > a {
 	margin-right: 10px;
-}
+}*/
 
 h2 small {
 	font-size: 16px;
